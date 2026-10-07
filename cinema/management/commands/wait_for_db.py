@@ -23,6 +23,7 @@ class Command(BaseCommand):
             except Exception:
                 self.stdout.write("Waiting. . .")
                 sleep(1)
+                attempts += 1
 
         if not db_ready:
             self.stdout.write(

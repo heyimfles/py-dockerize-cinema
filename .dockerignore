@@ -7,5 +7,5 @@
 Dockerfile
 **/*.md
 .github
-README.md|
+README.md
 db.sqlite3
