@@ -20,7 +20,7 @@ class Command(BaseCommand):
                 db_ready = True
                 self.stdout.write("Database is ready!")
 
-            except Exception as e:
+            except Exception:
                 self.stdout.write("Waiting. . .")
                 sleep(1)
 
